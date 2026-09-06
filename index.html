@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>GameZone - Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>GameZone</h1>
+    <p>Tu tienda de videojuegos, rápida y desde el celular</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="blogs.html">Blogs</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="registro.html">Registro</a>
+    <a href="carrito.html">Carrito (<span id="carrito-contador">0</span>)</a>
+    <a href="ingreso.html" id="nav-ingreso">Ingreso</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <!-- TODO: reemplazar por banner real -->
+      <img src="images/hero.svg" alt="Control de videojuegos sobre fondo oscuro">
+      <h2>Bienvenido a GameZone</h2>
+      <p>Descargas digitales, contenido exclusivo y los últimos lanzamientos para consola y PC.</p>
+    </section>
+
+    <section>
+      <h2>Destacados</h2>
+      <div class="juegos-grid">
+        <article class="juego-card">
+          <img src="images/juego-sombra-eterna.svg" alt="Portada de Sombra Eterna">
+          <h3>Sombra Eterna</h3>
+          <p>Terror y supervivencia en primera persona.</p>
+          <p class="precio">$29.990</p>
+          <a href="catalogo.html#sombra-eterna">Ver más</a>
+        </article>
+
+        <article class="juego-card">
+          <img src="images/juego-cronicas-valyra.svg" alt="Portada de Crónicas de Valyra">
+          <h3>Crónicas de Valyra</h3>
+          <p>Aventura de fantasía con mundo abierto.</p>
+          <p class="precio">$34.990</p>
+          <a href="catalogo.html#cronicas-valyra">Ver más</a>
+        </article>
+
+        <article class="juego-card">
+          <img src="images/juego-enigma-nocturno.svg" alt="Portada de Enigma Nocturno">
+          <h3>Enigma Nocturno</h3>
+          <p>Misterio e investigación paso a paso.</p>
+          <p class="precio">$19.990</p>
+          <a href="catalogo.html#enigma-nocturno">Ver más</a>
+        </article>
+
+        <article class="juego-card">
+          <img src="images/juego-legado-imperios.svg" alt="Portada de Legado de Imperios">
+          <h3>Legado de Imperios</h3>
+          <p>Estrategia histórica por turnos.</p>
+          <p class="precio">$24.990</p>
+          <a href="catalogo.html#legado-imperios">Ver más</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="trailer">
+      <h2>Tráiler destacado</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA" title="Tráiler destacado" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>GameZone &copy; 2026</p>
+    <p>Contacto: contacto@gamezone.cl | +56 9 1234 5678</p>
+  </footer>
+
+  <script src="carrito-core.js"></script>
+  <script src="sesion.js"></script>
+</body>
+</html>
